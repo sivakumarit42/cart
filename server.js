@@ -13,7 +13,6 @@ const counter = new promClient.Counter({
     help: 'running count of items added to cart',
     registers: [register]
 });
-
 var redisConnected = false;
 
 var redisHost = process.env.REDIS_HOST || 'redis'
