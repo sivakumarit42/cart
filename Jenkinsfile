@@ -4,7 +4,7 @@ env.component="cart"
 
 env.app_lang = "nodejs"
 
-//ci()
-ci_scripted()
+ci()
+//ci_old()
 
 
